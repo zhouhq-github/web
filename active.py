@@ -21,7 +21,8 @@ from app.schema.model import Activelevel
 from flask_migrate import Migrate #引入数据库迁移框架模块
 from flask_sqlalchemy import SQLAlchemy #ORM框架
 from sqlalchemy import or_,not_,and_
-from sqlalchemy.sql import func
+from sqlalchemy.sql import 
+#######################33333333
 
 active_route = Blueprint('active',__name__)
 @active_route.route('/')
